@@ -248,6 +248,10 @@ body {
   transition: width 0.2s, height 0.2s;
 }
 
+.card p {
+  height: 5.4rem;
+}
+
 .card:hover {
   width: 20.3rem;
   height: 12.3rem;
@@ -256,7 +260,6 @@ body {
 
 .icon-card {
   display: flex;
-  margin-top: 4rem;
   gap: 1rem;
   align-items: flex-end;
   justify-content: end;
